@@ -33,6 +33,11 @@ property, and fuzz tests that guard the riskiest code.}
 platforms not in the test matrix; and any requirement with no automated test. Link each to the
 validation step or decision that covers it instead.}
 
+For consequential AI-agent actions, link the completed
+[independent agent execution gate](../06-security/independent-agent-execution-gate.md).
+Distinguish synthetic policy results from integrated executor evidence and real
+external-effect receipts.
+
 ## 5. Changes since the previous release's evidence
 
 {Tests added, removed, or quarantined, with the reason for each.}

@@ -21,6 +21,9 @@ every release passes the same gates in the same order, so a skipped step is visi
       {validation plan results}
 - [ ] Security: dependency audit clean or each finding waived with an expiry date; threat model
       reviewed if a surface changed.
+- [ ] If the release lets an AI agent request consequential external effects, attach
+      an [independent execution gate](../06-security/independent-agent-execution-gate.md)
+      acceptance record and real executor evidence. A simulation is not sufficient.
 - [ ] Release notes drafted from the [release notes template](release-notes.md) and reviewed.
 
 ## 2. Cut

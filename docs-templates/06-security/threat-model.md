@@ -66,6 +66,10 @@ secrets, logs and debug interfaces, build and release pipeline, third-party depe
 or your platform's security baseline. The architecture conformance table marks these as
 required.}
 
+For consequential AI-agent actions, document the independent permission boundary in
+[the execution gate](independent-agent-execution-gate.md). This record alone does
+not prove an executor prevents bypass.
+
 ## 7. Known gaps
 
 The recurring themes, each tracked in the [hardening status](hardening-status.md) or the security
